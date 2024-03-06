@@ -1,0 +1,78 @@
+:root{
+    --color: rgb(56 50 80);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html, body{
+    display: grid;
+    height: 100%;
+    place-items: center;
+    background-color: #f2f2f2;
+}
+
+.wrapper{
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    height: 300px;
+}
+
+.header{
+    color: white;
+    padding: 20px 0px;
+    margin: 0px 0px 10px 0px;
+    background-color: var(--color);
+    width: 350px;
+    text-align: center;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container input{
+    height: 40px;
+    width: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.433);
+    border-radius: 20px;
+    padding: 10px;
+}
+.pass-link{
+    padding-bottom: 10px;
+}
+
+.pass-link a{
+    font-size: 14px;
+}
+
+.button input{
+    width: 250px;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: var(--color);
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button input:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+
