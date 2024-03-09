@@ -8,6 +8,7 @@ body {
     padding: 20px;
     background-color: gray;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -68,9 +69,4 @@ img {
     color: white;
 }
 
-@media screen and (max-width: 1400px) {
-    body{
-        flex-wrap: wrap;
-    }
-  }
   
